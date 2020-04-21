@@ -29,9 +29,10 @@ namespace compressString
 
             }
 
-            char[] str = { 'a', 'a', 'b', 'b', 'b', 'c','c','d'};
-
+            //char[] str = { 'a', 'a','c','c','c'};
+            char[] str = ("aaaacccbbc").ToCharArray();
             compressString(str);
+
         }
     }
 }
