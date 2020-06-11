@@ -43,7 +43,7 @@ namespace compressString
 
             }
 
-            char[] str = ("aaaacccbbc").ToCharArray();
+            char[] str = ("aaaabbbcc").ToCharArray();
             compressString(str);
             Console.ReadLine();
 
